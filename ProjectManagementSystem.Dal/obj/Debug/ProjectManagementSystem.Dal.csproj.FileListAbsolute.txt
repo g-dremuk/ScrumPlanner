@@ -1,0 +1,12 @@
+C:\Users\Глеб\Documents\Visual Studio 2010\Projects\trank\ProjectManagementSystem.Dal\obj\Debug\ProjectManagementSystem.Dal.csprojResolveAssemblyReference.cache
+C:\Users\Глеб\Documents\Visual Studio 2010\Projects\trank\ProjectManagementSystem.Dal\bin\Debug\ProjectManagementSystem.Dal.dll.config
+C:\Users\Глеб\Documents\Visual Studio 2010\Projects\trank\ProjectManagementSystem.Dal\bin\Debug\ProjectManagementSystem.Dal.dll
+C:\Users\Глеб\Documents\Visual Studio 2010\Projects\trank\ProjectManagementSystem.Dal\bin\Debug\ProjectManagementSystem.Dal.pdb
+C:\Users\Глеб\Documents\Visual Studio 2010\Projects\trank\ProjectManagementSystem.Dal\bin\Debug\EntityFramework.dll
+C:\Users\Глеб\Documents\Visual Studio 2010\Projects\trank\ProjectManagementSystem.Dal\bin\Debug\ProjectManagementSystem.BllRequirements.dll
+C:\Users\Глеб\Documents\Visual Studio 2010\Projects\trank\ProjectManagementSystem.Dal\bin\Debug\ProjectManagementSystem.Models.dll
+C:\Users\Глеб\Documents\Visual Studio 2010\Projects\trank\ProjectManagementSystem.Dal\bin\Debug\ProjectManagementSystem.BllRequirements.pdb
+C:\Users\Глеб\Documents\Visual Studio 2010\Projects\trank\ProjectManagementSystem.Dal\bin\Debug\ProjectManagementSystem.Models.pdb
+C:\Users\Глеб\Documents\Visual Studio 2010\Projects\trank\ProjectManagementSystem.Dal\bin\Debug\EntityFramework.xml
+C:\Users\Глеб\Documents\Visual Studio 2010\Projects\trank\ProjectManagementSystem.Dal\obj\Debug\ProjectManagementSystem.Dal.dll
+C:\Users\Глеб\Documents\Visual Studio 2010\Projects\trank\ProjectManagementSystem.Dal\obj\Debug\ProjectManagementSystem.Dal.pdb

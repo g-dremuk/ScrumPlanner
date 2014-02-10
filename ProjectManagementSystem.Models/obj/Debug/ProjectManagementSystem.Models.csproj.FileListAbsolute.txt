@@ -1,0 +1,5 @@
+C:\Users\Глеб\Documents\Visual Studio 2010\Projects\trank\ProjectManagementSystem.Models\bin\Debug\ProjectManagementSystem.Models.dll
+C:\Users\Глеб\Documents\Visual Studio 2010\Projects\trank\ProjectManagementSystem.Models\bin\Debug\ProjectManagementSystem.Models.pdb
+C:\Users\Глеб\Documents\Visual Studio 2010\Projects\trank\ProjectManagementSystem.Models\obj\Debug\ProjectManagementSystem.Models.csprojResolveAssemblyReference.cache
+C:\Users\Глеб\Documents\Visual Studio 2010\Projects\trank\ProjectManagementSystem.Models\obj\Debug\ProjectManagementSystem.Models.dll
+C:\Users\Глеб\Documents\Visual Studio 2010\Projects\trank\ProjectManagementSystem.Models\obj\Debug\ProjectManagementSystem.Models.pdb

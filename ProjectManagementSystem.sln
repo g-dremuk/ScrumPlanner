@@ -1,0 +1,160 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectManagementSystem", "ProjectManagementSystem\ProjectManagementSystem.csproj", "{1E9CD6E3-7A6E-4064-909A-B778D81D3AFE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. UI", "1. UI", "{D6D85CC7-99B6-42FA-9E1C-D7FD57347481}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. BLL", "2. BLL", "{FD7F4226-D4D6-448C-B6A3-4C4F1433FAAA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. DAL", "3. DAL", "{EF9DD40A-1E10-4633-8D20-E5C310879B6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectManagementSystem.Bll", "ProjectManagementSystem.Bll\ProjectManagementSystem.Bll.csproj", "{0936622A-3EE5-4F0D-BF0C-3C91EE29EF3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectManagementSystem.Dal", "ProjectManagementSystem.Dal\ProjectManagementSystem.Dal.csproj", "{9F497D99-D2F4-477D-9AF2-34943101276C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectManagementSystem.Models", "ProjectManagementSystem.Models\ProjectManagementSystem.Models.csproj", "{9BA7015D-AA87-4D91-A153-99614F46C7C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectManagementSystem.BllInterfaces", "ProjectManagementSystem.BllInterfaces\ProjectManagementSystem.BllInterfaces.csproj", "{8ECE8FC6-B3BB-4BEE-BD8A-5CE636074C87}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. System", "4. System", "{668D4FED-DD23-44A6-8D31-5F8670850F48}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6. Tests", "6. Tests", "{6200F982-BC2D-4A6D-9D73-A2C303C7EA0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectManagementSystem.Tests", "ProjectManagementSystem.Tests\ProjectManagementSystem.Tests.csproj", "{31739E61-FF5C-4841-8C56-83EDC5E5A735}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectManagementSystem.BllRequirements", "ProjectManagementSystem.BllRequirements\ProjectManagementSystem.BllRequirements.csproj", "{EAFD3D46-D95B-4FCF-B183-863365661950}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectManagementSystem.Bootstrap", "ProjectManagementSystem.Bootstrap\ProjectManagementSystem.Bootstrap.csproj", "{F4F5EC00-8DB2-4911-974D-4BAA1AE88D36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectManagementSystem.UiHelper", "ProjectManagementSystem.UiHelper\ProjectManagementSystem.UiHelper.csproj", "{E34DC599-E61F-4E1D-A0CF-D0E98A026749}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "9. Debbuging", "9. Debbuging", "{6C6B6D09-2F22-44ED-AA6B-74CFA83C4E66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectManagementSystem.Debugging", "ProjectManagementSystem.Debugging\ProjectManagementSystem.Debugging.csproj", "{9A6BBE70-0F8B-4369-B9F3-C12B83136911}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5. Security", "5. Security", "{E12049F4-F7AC-4819-A236-B108AF39F8F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectManagementSystem.SecurityProviders", "ProjectManagementSystem.SecurityProviders\ProjectManagementSystem.SecurityProviders.csproj", "{B221E24A-2558-4757-89E7-43C6846A73B5}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 12
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://botanikmcs.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ProjectManagementSystem.Bll\\ProjectManagementSystem.Bll.csproj
+		SccProjectTopLevelParentUniqueName1 = ProjectManagementSystem.sln
+		SccProjectName1 = ProjectManagementSystem.Bll
+		SccLocalPath1 = ProjectManagementSystem.Bll
+		SccProjectUniqueName2 = ProjectManagementSystem.BllInterfaces\\ProjectManagementSystem.BllInterfaces.csproj
+		SccProjectTopLevelParentUniqueName2 = ProjectManagementSystem.sln
+		SccProjectName2 = ProjectManagementSystem.BllInterfaces
+		SccLocalPath2 = ProjectManagementSystem.BllInterfaces
+		SccProjectUniqueName3 = ProjectManagementSystem.BllRequirements\\ProjectManagementSystem.BllRequirements.csproj
+		SccProjectTopLevelParentUniqueName3 = ProjectManagementSystem.sln
+		SccProjectName3 = ProjectManagementSystem.BllRequirements
+		SccLocalPath3 = ProjectManagementSystem.BllRequirements
+		SccProjectUniqueName4 = ProjectManagementSystem.Bootstrap\\ProjectManagementSystem.Bootstrap.csproj
+		SccProjectTopLevelParentUniqueName4 = ProjectManagementSystem.sln
+		SccProjectName4 = ProjectManagementSystem.Bootstrap
+		SccLocalPath4 = ProjectManagementSystem.Bootstrap
+		SccProjectUniqueName5 = ProjectManagementSystem.Dal\\ProjectManagementSystem.Dal.csproj
+		SccProjectTopLevelParentUniqueName5 = ProjectManagementSystem.sln
+		SccProjectName5 = ProjectManagementSystem.Dal
+		SccLocalPath5 = ProjectManagementSystem.Dal
+		SccProjectUniqueName6 = ProjectManagementSystem.Debugging\\ProjectManagementSystem.Debugging.csproj
+		SccProjectTopLevelParentUniqueName6 = ProjectManagementSystem.sln
+		SccProjectName6 = ProjectManagementSystem.Debugging
+		SccLocalPath6 = ProjectManagementSystem.Debugging
+		SccProjectUniqueName7 = ProjectManagementSystem.Models\\ProjectManagementSystem.Models.csproj
+		SccProjectTopLevelParentUniqueName7 = ProjectManagementSystem.sln
+		SccProjectName7 = ProjectManagementSystem.Models
+		SccLocalPath7 = ProjectManagementSystem.Models
+		SccProjectUniqueName8 = ProjectManagementSystem.Tests\\ProjectManagementSystem.Tests.csproj
+		SccProjectTopLevelParentUniqueName8 = ProjectManagementSystem.sln
+		SccProjectName8 = ProjectManagementSystem.Tests
+		SccLocalPath8 = ProjectManagementSystem.Tests
+		SccProjectUniqueName9 = ProjectManagementSystem.UiHelper\\ProjectManagementSystem.UiHelper.csproj
+		SccProjectTopLevelParentUniqueName9 = ProjectManagementSystem.sln
+		SccProjectName9 = ProjectManagementSystem.UiHelper
+		SccLocalPath9 = ProjectManagementSystem.UiHelper
+		SccProjectUniqueName10 = ProjectManagementSystem\\ProjectManagementSystem.csproj
+		SccProjectTopLevelParentUniqueName10 = ProjectManagementSystem.sln
+		SccProjectName10 = ProjectManagementSystem
+		SccLocalPath10 = ProjectManagementSystem
+		SccProjectUniqueName11 = ProjectManagementSystem.SecurityProviders\\ProjectManagementSystem.SecurityProviders.csproj
+		SccProjectTopLevelParentUniqueName11 = ProjectManagementSystem.sln
+		SccProjectName11 = ProjectManagementSystem.SecurityProviders
+		SccLocalPath11 = ProjectManagementSystem.SecurityProviders
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E9CD6E3-7A6E-4064-909A-B778D81D3AFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E9CD6E3-7A6E-4064-909A-B778D81D3AFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E9CD6E3-7A6E-4064-909A-B778D81D3AFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E9CD6E3-7A6E-4064-909A-B778D81D3AFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0936622A-3EE5-4F0D-BF0C-3C91EE29EF3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0936622A-3EE5-4F0D-BF0C-3C91EE29EF3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0936622A-3EE5-4F0D-BF0C-3C91EE29EF3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0936622A-3EE5-4F0D-BF0C-3C91EE29EF3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F497D99-D2F4-477D-9AF2-34943101276C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F497D99-D2F4-477D-9AF2-34943101276C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F497D99-D2F4-477D-9AF2-34943101276C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F497D99-D2F4-477D-9AF2-34943101276C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BA7015D-AA87-4D91-A153-99614F46C7C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BA7015D-AA87-4D91-A153-99614F46C7C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BA7015D-AA87-4D91-A153-99614F46C7C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BA7015D-AA87-4D91-A153-99614F46C7C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8ECE8FC6-B3BB-4BEE-BD8A-5CE636074C87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8ECE8FC6-B3BB-4BEE-BD8A-5CE636074C87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8ECE8FC6-B3BB-4BEE-BD8A-5CE636074C87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8ECE8FC6-B3BB-4BEE-BD8A-5CE636074C87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31739E61-FF5C-4841-8C56-83EDC5E5A735}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31739E61-FF5C-4841-8C56-83EDC5E5A735}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31739E61-FF5C-4841-8C56-83EDC5E5A735}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31739E61-FF5C-4841-8C56-83EDC5E5A735}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAFD3D46-D95B-4FCF-B183-863365661950}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAFD3D46-D95B-4FCF-B183-863365661950}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAFD3D46-D95B-4FCF-B183-863365661950}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAFD3D46-D95B-4FCF-B183-863365661950}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4F5EC00-8DB2-4911-974D-4BAA1AE88D36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4F5EC00-8DB2-4911-974D-4BAA1AE88D36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4F5EC00-8DB2-4911-974D-4BAA1AE88D36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4F5EC00-8DB2-4911-974D-4BAA1AE88D36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E34DC599-E61F-4E1D-A0CF-D0E98A026749}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E34DC599-E61F-4E1D-A0CF-D0E98A026749}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E34DC599-E61F-4E1D-A0CF-D0E98A026749}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E34DC599-E61F-4E1D-A0CF-D0E98A026749}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A6BBE70-0F8B-4369-B9F3-C12B83136911}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A6BBE70-0F8B-4369-B9F3-C12B83136911}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A6BBE70-0F8B-4369-B9F3-C12B83136911}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A6BBE70-0F8B-4369-B9F3-C12B83136911}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B221E24A-2558-4757-89E7-43C6846A73B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B221E24A-2558-4757-89E7-43C6846A73B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B221E24A-2558-4757-89E7-43C6846A73B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B221E24A-2558-4757-89E7-43C6846A73B5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1E9CD6E3-7A6E-4064-909A-B778D81D3AFE} = {D6D85CC7-99B6-42FA-9E1C-D7FD57347481}
+		{E34DC599-E61F-4E1D-A0CF-D0E98A026749} = {D6D85CC7-99B6-42FA-9E1C-D7FD57347481}
+		{0936622A-3EE5-4F0D-BF0C-3C91EE29EF3B} = {FD7F4226-D4D6-448C-B6A3-4C4F1433FAAA}
+		{9BA7015D-AA87-4D91-A153-99614F46C7C6} = {FD7F4226-D4D6-448C-B6A3-4C4F1433FAAA}
+		{8ECE8FC6-B3BB-4BEE-BD8A-5CE636074C87} = {FD7F4226-D4D6-448C-B6A3-4C4F1433FAAA}
+		{EAFD3D46-D95B-4FCF-B183-863365661950} = {FD7F4226-D4D6-448C-B6A3-4C4F1433FAAA}
+		{9F497D99-D2F4-477D-9AF2-34943101276C} = {EF9DD40A-1E10-4633-8D20-E5C310879B6A}
+		{F4F5EC00-8DB2-4911-974D-4BAA1AE88D36} = {668D4FED-DD23-44A6-8D31-5F8670850F48}
+		{31739E61-FF5C-4841-8C56-83EDC5E5A735} = {6200F982-BC2D-4A6D-9D73-A2C303C7EA0F}
+		{9A6BBE70-0F8B-4369-B9F3-C12B83136911} = {6C6B6D09-2F22-44ED-AA6B-74CFA83C4E66}
+		{B221E24A-2558-4757-89E7-43C6846A73B5} = {E12049F4-F7AC-4819-A236-B108AF39F8F2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.2\lib\NET35
+	EndGlobalSection
+EndGlobal

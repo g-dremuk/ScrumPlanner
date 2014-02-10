@@ -1,0 +1,29 @@
+﻿@{
+    Layout = "~/Views/Shared/_LoggedInLayoutPage.cshtml";
+}
+@model ProjectManagementSystem.Models.ProjectsListModel
+
+<h1>Add New Task To Project</h1>
+
+@if (Model.AllProjects.Count > 0){
+    
+<div id="content-container">
+    <label>Select Project </label>
+    @Html.DropDownListFor(m=>m.AllProjects, new SelectList(Model.AllProjects, "Value", "Text"))
+    <br />
+    <div id="add-task-container">
+        <label>Name</label><input type="text" id="Name" />
+        <label>Description </label><input type="text" id="Description" />
+        <label>Profit </label><input type="text" id="Profit" />
+        <label>Time </label><input type="text" id="Time" />
+        <br/>
+        <button id="btnAddTask" type="button" class="btn">Add</button>
+    </div>
+    <div id="reset-add-task-container">
+        <label>Task was successfuly added to Project</label>
+        <button id="ResetAddTaskForm" type="button" class="btn">Add Another Task</button>
+    </div>
+</div>
+}else{
+    <text>No projects to add new tasks into. Please try again later...</text>
+}

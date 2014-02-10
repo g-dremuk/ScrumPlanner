@@ -1,0 +1,15 @@
+﻿@{
+    Layout = "~/Views/Shared/_HomeLayoutPage.cshtml";
+}
+<h2>Registration</h2>
+
+@using (Html.BeginForm("Registration", "Authentication", FormMethod.Post))
+{
+    <fieldset>
+        <label>Login</label> @Html.TextBox("Login", "", new { @class = ""})<br/>
+        <label>Password</label> @Html.Password("Password")<br/>
+        <label>Password Confirmation </label> @Html.Password("PasswordConfirmation")
+        <br/>
+        <button type="submit" class="btn">Login</button>
+    </fieldset>
+}

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="075a3faaa6394b56816b930881c85f8f" Name="Diagram1">
+        <EntityTypeShape EntityType="ProjectManagementSystem.FinalTraningsProjectModel.Role" Width="1.5" PointX="2.75" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProjectManagementSystem.FinalTraningsProjectModel.Task" Width="1.5" PointX="5" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProjectManagementSystem.FinalTraningsProjectModel.User" Width="1.5" PointX="0.5" PointY="0.5" IsExpanded="true" />
+        <AssociationConnector Association="ProjectManagementSystem.FinalTraningsProjectModel.FK_Users_Roles" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="ProjectManagementSystem.FinalTraningsProjectModel.Project" Width="1.5" PointX="7.5" PointY="0.875" />
+        <EntityTypeShape EntityType="ProjectManagementSystem.FinalTraningsProjectModel.sysdiagram" Width="1.5" PointX="2.2276834185364112" PointY="5.0839724415372931" />
+        <AssociationConnector Association="ProjectManagementSystem.FinalTraningsProjectModel.FK_Tasks_Projects" />
+        <AssociationConnector Association="ProjectManagementSystem.FinalTraningsProjectModel.FK_Tasks_Users" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

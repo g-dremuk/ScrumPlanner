@@ -1,0 +1,5 @@
+C:\Users\Глеб\Documents\Visual Studio 2010\Projects\trank\ProjectManagementSystem.SecurityProviders\bin\Debug\ProjectManagementSystem.SecurityProviders.dll
+C:\Users\Глеб\Documents\Visual Studio 2010\Projects\trank\ProjectManagementSystem.SecurityProviders\bin\Debug\ProjectManagementSystem.SecurityProviders.pdb
+C:\Users\Глеб\Documents\Visual Studio 2010\Projects\trank\ProjectManagementSystem.SecurityProviders\obj\Debug\ProjectManagementSystem.SecurityProviders.csprojResolveAssemblyReference.cache
+C:\Users\Глеб\Documents\Visual Studio 2010\Projects\trank\ProjectManagementSystem.SecurityProviders\obj\Debug\ProjectManagementSystem.SecurityProviders.dll
+C:\Users\Глеб\Documents\Visual Studio 2010\Projects\trank\ProjectManagementSystem.SecurityProviders\obj\Debug\ProjectManagementSystem.SecurityProviders.pdb

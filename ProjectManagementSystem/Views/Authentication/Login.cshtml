@@ -1,0 +1,22 @@
+﻿@{
+    Layout = "~/Views/Shared/_HomeLayoutPage.cshtml";
+}
+@model ProjectManagementSystem.Models.AuthorizationModel
+<h2>Login</h2>
+
+
+@using (Html.BeginForm("Login", "Authentication", FormMethod.Post, new { @class="form-signin"}))
+{
+    if (!Model.isUserExist) { 
+        <label class="text-error">Wrong credentials: no such user.</label>
+        <label class="text-error">Please check correctness of your login and password.</label>
+    }
+    <fieldset>
+        <label>Login</label> @Html.TextBox("Login", "", new { @class = ""})
+        <br />
+        <label>Password</label> @Html.Password("Password")
+        <br/>
+        <button type="submit" class="btn">Login</button>
+    </fieldset>
+}
+

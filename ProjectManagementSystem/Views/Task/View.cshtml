@@ -1,0 +1,27 @@
+﻿@model ProjectManagementSystem.Models.TaskInfo[]
+
+@{
+    ViewBag.Title = "Tasks";
+    Layout = "~/Views/_Shared/_Internal.cshtml";
+}
+
+<h2>Tasks</h2>
+@{ var columnsCount = 2; }
+
+@for (var i = 0; i < Model.Length;)
+{
+    <div class="row-fluid">
+        @for (var c=0; i < Model.Length && c < columnsCount; i++, c++)
+        {
+            var task = Model[i];
+            
+            <div class="span@(Math.Round((double) (12/columnsCount)))">
+                <b><i class="icon-star"></i> @task.Name</b>
+                <p>@task.Description</p>
+                <p>Profit: @task.Profit, Duration: @task.Duration, Viewed: @task.ViewCounter</p>
+                <button class="btn btn-info">View more...</button>
+                <a class="btn btn-info" href="http://tut.by">View more...</a>
+            </div>
+        }
+    </div>
+}

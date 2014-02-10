@@ -1,0 +1,15 @@
+﻿@{
+    Layout = "~/Views/Shared/_LoggedInLayoutPage.cshtml";
+}
+
+<h1>Create New Project</h1>
+<div id="create-new-project-container">
+    <form method="post" action="/Manager/CreateNewProject">
+        <label>Name of the New Project</label>
+        <input type="text" id="createProjectName" name="createProjectName"/>
+        <label>Description of the New Project</label>
+        <input type="text" id="createProjectDescription" name="createProjectDescription"/>
+        <br />
+        <input type="submit" class="btn" value="Add New Project" />
+    </form>
+</div>

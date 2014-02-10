@@ -1,0 +1,7 @@
+C:\Users\Глеб\Documents\Visual Studio 2010\Projects\trank\ProjectManagementSystem.Logger\bin\Debug\ProjectManagementSystem.Logger.dll
+C:\Users\Глеб\Documents\Visual Studio 2010\Projects\trank\ProjectManagementSystem.Logger\bin\Debug\ProjectManagementSystem.Logger.pdb
+C:\Users\Глеб\Documents\Visual Studio 2010\Projects\trank\ProjectManagementSystem.Logger\bin\Debug\ProjectManagementSystem.LoggerInterfaces.dll
+C:\Users\Глеб\Documents\Visual Studio 2010\Projects\trank\ProjectManagementSystem.Logger\bin\Debug\ProjectManagementSystem.LoggerInterfaces.pdb
+C:\Users\Глеб\Documents\Visual Studio 2010\Projects\trank\ProjectManagementSystem.Logger\obj\Debug\ProjectManagementSystem.Logger.csprojResolveAssemblyReference.cache
+C:\Users\Глеб\Documents\Visual Studio 2010\Projects\trank\ProjectManagementSystem.Logger\obj\Debug\ProjectManagementSystem.Logger.dll
+C:\Users\Глеб\Documents\Visual Studio 2010\Projects\trank\ProjectManagementSystem.Logger\obj\Debug\ProjectManagementSystem.Logger.pdb

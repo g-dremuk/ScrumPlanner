@@ -1,0 +1,35 @@
+﻿@{
+    Layout = "~/Views/Shared/_LoggedInLayoutPage.cshtml";
+}
+@model ProjectManagementSystem.Models.AddNewUserModel
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#SelectedRole").val("");
+        $("#Login").val("");
+        $("#Password").val("");
+    });
+</script>
+
+<h1>Add New User</h1>
+
+@if (Model.isSucced){ <label class="text-success">This user was successfuly added.</label>}
+@using (Html.BeginForm("AddNewUser", "Admin", FormMethod.Post, new { @class = "form-signin" }))
+{
+    <fieldset>
+        <label>Login</label>
+        @Html.TextBox("Login", "", new { @class = "" }) @if (Model.isUserExist){ <label class="text-error">This login is actualy used</label> }
+        <label>Password</label>
+        @Html.Password("Password")@if (Model.isInvalidPasswordLenth)
+                                  { <label class="text-error">Password length must be greater then 5.</label> }
+        <label>Role</label>
+        @{
+                                  List<SelectListItem> list = new List<SelectListItem>();//Список значений для DDL
+                                  list.Add(new SelectListItem() { Text = "Manager" });//Заполняем его
+                                  list.Add(new SelectListItem() { Text = "Programmer" });//Заполняем его
+        }
+        @Html.DropDownList("SelectedRole", list)
+        
+        <br />
+        <button type="submit" class="btn">Create</button>
+    </fieldset>
+}

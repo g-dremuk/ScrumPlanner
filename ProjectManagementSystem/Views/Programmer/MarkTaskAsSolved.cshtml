@@ -1,0 +1,42 @@
+﻿@{
+    Layout = "~/Views/Shared/_LoggedInLayoutPage.cshtml";
+}
+
+@model ProjectManagementSystem.Models.MarkTaskAsSolvedModel
+
+<h1>Marked Task As Solved</h1>
+
+@if (Model.isSucced)
+{ 
+    <label class="text-success">This task was successfuly marked.</label>
+}
+@if ((!Model.isSucced) && (Model.errorMessage.Length > 0))
+{ 
+    <label class="text-error">@Model.errorMessage</label> 
+}
+else
+{
+
+    if (Model.AllWorkedTask.Count > 0)
+    {
+
+    <div id="content-mark-container">
+
+        @using (Html.BeginForm("MarkTaskAsSolved", "Programmer", FormMethod.Post, new { @class = "form-signin" }))
+        {
+            <fieldset>
+
+                <label>List of Tasks</label>
+                @Html.DropDownListFor(m => m.AllWorkedTask, new SelectList(Model.AllWorkedTask, "Value", "Text"))
+                <br />
+                <button id="btnMark" type="submit" class="btn">Mark</button>
+
+            </fieldset>
+        }
+    </div>
+    }
+    else
+    {
+    <text>You have no task to mark as solved. Please select some tasks.</text>
+    }
+}

@@ -1,0 +1,19 @@
+﻿@model dynamic
+
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/_Shared/_Main.cshtml";
+}
+
+<h2>Login</h2>
+
+
+@using (Html.BeginForm("Login", "Auth", FormMethod.Post))
+{
+    <fieldset>
+        <label>Login</label> @Html.TextBox("Login", "", new { @class = ""})
+        <label>Password</label> @Html.Password("Password")
+        <br/>
+        <button type="submit" class="btn">Login</button>
+    </fieldset>
+}

@@ -1,0 +1,11 @@
+C:\Users\Глеб\Documents\Visual Studio 2010\Projects\trank\ProjectManagementSystem.Bll\obj\Debug\ProjectManagementSystem.Bll.csprojResolveAssemblyReference.cache
+C:\Users\Глеб\Documents\Visual Studio 2010\Projects\trank\ProjectManagementSystem.Bll\bin\Debug\ProjectManagementSystem.Bll.dll
+C:\Users\Глеб\Documents\Visual Studio 2010\Projects\trank\ProjectManagementSystem.Bll\bin\Debug\ProjectManagementSystem.Bll.pdb
+C:\Users\Глеб\Documents\Visual Studio 2010\Projects\trank\ProjectManagementSystem.Bll\bin\Debug\ProjectManagementSystem.BllInterfaces.dll
+C:\Users\Глеб\Documents\Visual Studio 2010\Projects\trank\ProjectManagementSystem.Bll\bin\Debug\ProjectManagementSystem.BllRequirements.dll
+C:\Users\Глеб\Documents\Visual Studio 2010\Projects\trank\ProjectManagementSystem.Bll\bin\Debug\ProjectManagementSystem.Models.dll
+C:\Users\Глеб\Documents\Visual Studio 2010\Projects\trank\ProjectManagementSystem.Bll\bin\Debug\ProjectManagementSystem.BllInterfaces.pdb
+C:\Users\Глеб\Documents\Visual Studio 2010\Projects\trank\ProjectManagementSystem.Bll\bin\Debug\ProjectManagementSystem.BllRequirements.pdb
+C:\Users\Глеб\Documents\Visual Studio 2010\Projects\trank\ProjectManagementSystem.Bll\bin\Debug\ProjectManagementSystem.Models.pdb
+C:\Users\Глеб\Documents\Visual Studio 2010\Projects\trank\ProjectManagementSystem.Bll\obj\Debug\ProjectManagementSystem.Bll.dll
+C:\Users\Глеб\Documents\Visual Studio 2010\Projects\trank\ProjectManagementSystem.Bll\obj\Debug\ProjectManagementSystem.Bll.pdb

@@ -1,0 +1,23 @@
+﻿@{
+    Layout = "~/Views/Shared/_LoggedInLayoutPage.cshtml";
+}
+
+@model ProjectManagementSystem.Models.ProjectsListModel
+
+<h1>Generate Iteration</h1>
+@if (Model.AllProjects.Count > 0){
+<div id="content-container">
+    <label>Select Project </label>
+    @Html.DropDownListFor(m=>m.AllProjects, new SelectList(Model.AllProjects, "Value", "Text"))
+    <br />
+    <div id="add-task-container">
+        <button id="btnGenerateIteration" type="button" class="btn">Generate</button>
+    </div>
+    <div id="reset-add-task-container">
+        <label id="generateResult">test</label>
+        <button id="ResetAddTaskForm" type="button" class="btn">Generate Another Iteration</button>
+    </div>
+</div>
+}else{
+    <text>No projects to generate new iteration. Please try again later...</text>
+}

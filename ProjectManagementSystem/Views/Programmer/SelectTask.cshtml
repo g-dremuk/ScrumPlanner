@@ -1,0 +1,21 @@
+﻿@{
+    Layout = "~/Views/Shared/_LoggedInLayoutPage.cshtml";
+}
+@model ProjectManagementSystem.Models.TasksListModel
+<h1>Select Task</h1>
+
+@if (Model.AllTasks.Count > 0){
+
+<div id="content-container">
+    <label>List of Tasks</label>
+    @Html.DropDownListFor(m => m.AllTasks, new SelectList(Model.AllTasks, "Value", "Text"))
+    <br />
+    <button id="btnSelect" type="button" class="btn">Select</button>
+    <div id="reset-container">
+        <label>Task was successfuly selected </label>
+        <button id="ResetForm" type="button" class="btn">Select Another Task</button>
+    </div>
+</div>
+}else{
+    <text>No tasks to select. Please try again later...</text>
+}

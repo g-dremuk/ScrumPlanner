@@ -1,0 +1,39 @@
+﻿@{
+    Layout = "~/Views/Shared/_LoggedInLayoutPage.cshtml";
+}
+@model ProjectManagementSystem.Models.ShowCurrentIterationForProject
+
+<h1>Show Current Iteration For Project</h1>
+
+@if (Model.AllProjects.Count > 0)
+{
+
+    <div id="content-proj-curr-iteration-container">
+
+        <label>List of Tasks</label>
+        <label>Select Project:</label>
+               @Html.DropDownListFor(m => m.AllProjects, new SelectList(Model.AllProjects, "Value", "Text"))
+                <br />
+                <button id="btnCurrIter" type="button" class="btn">Get Iteration</button>
+                <br />
+        
+    </div>
+    
+    <div id="content-iter-curr-iteration-container">
+        <label>Select iteration:</label>
+        <select id="AllIterations" name="AllIterations">
+        </select>
+        <br />
+        <button id="btnGetIterTasks" type="button" class="btn">Get Tasks</button>
+        <br />
+    </div>
+    
+    <div id="content-result-curr-iteration-container">
+
+    </div>
+}
+else
+{
+    <text>There are no projects in system. Please create some and creat iterations for them.</text>
+}
+

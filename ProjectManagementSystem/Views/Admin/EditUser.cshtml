@@ -1,0 +1,34 @@
+﻿@{
+    Layout = "~/Views/Shared/_LoggedInLayoutPage.cshtml";
+}
+
+@model ProjectManagementSystem.Models.UsersListModel
+
+<h1>Edit User</h1>
+
+@if (Model.AllUsers.Count > 0){
+    
+<div id="content-container">
+    <label>Username </label>@Html.DropDownListFor(m=>m.AllUsers, new SelectList(Model.AllUsers, "Value", "Text"))
+    <br />
+    <button id="btnSelectUser" type="button" class="btn">Select</button>
+    <div id="edit-user-container">
+        <label>New Password </label><input type="text" id="newPassword" /><div id="error-user-container"></div>
+        
+        @{
+            List<SelectListItem> list = new List<SelectListItem>();//Список значений для DDL
+            list.Add(new SelectListItem() { Text = "Manager" });//Заполняем его
+            list.Add(new SelectListItem() { Text = "Programmer" });//Заполняем его
+        }
+        <label>New Role </label>@Html.DropDownList("newRole", list)
+        <br />
+        <button id="btnEditUser" type="button" class="btn">Change</button>
+    </div>
+    <div id="reset-user-container">
+        <label>User was successfuly edited </label>
+        <button id="ResetUserForm" type="button" class="btn">Edit Another User</button>
+    </div>
+</div>
+}else{
+    <text>No users to edit. Please try again later...</text>
+}
